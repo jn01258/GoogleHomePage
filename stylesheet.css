@@ -1,17 +1,16 @@
 div {margin: 0; padding: 0;}
 
-ul {
+.menu {
     list-style-type: none;
-
     overflow: hidden;
 
 }
 
-li {
+.menu > li {
     float: right;
 }
 
-li a {
+.menu > li > a {
     display: block;
     text-align: center;
     margin: 0;
