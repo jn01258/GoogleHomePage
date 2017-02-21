@@ -1,6 +1,6 @@
 div {margin: 0; padding: 0;}
 
-.menu {
+ul {
     list-style-type: none;
     overflow: hidden;
 
@@ -22,15 +22,16 @@ div {margin: 0; padding: 0;}
     color: #0e1111;
 }
 
-.topNav img {
+.menu img {
 
     display: block;
     padding: 8px;
     top: 9px;
 }
 
-#grid {width:23px; height:20px;}
 #signin {width:79px; height:31px;}
+#grid {width:23px; height:20px;}
+
 
 .content {
   width:334px; height: 404px;
@@ -134,4 +135,14 @@ p {
   left: 0;
   background-color: #efefef;
 
+}
+
+/* Footer Menu */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
