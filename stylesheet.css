@@ -50,7 +50,7 @@ img {width:250px;}
 }
 
 /* Makes placeholder disappear when typed in*/
-input:focus::-webkit-input-placeholder {
+input:focus:: input-placeholder {
     opacity: 0;
 }
 
@@ -98,21 +98,21 @@ p {
   white-space: nowrap;
 }
 
-.body a:link    {
+#quotelink:link    {
   /* Applies to unvisited links*/
   text-decoration: none;
   color: navy;
   }
-.body a:visited {
+#quotelink:visited {
   /* Applies to visited links*/
   text-decoration: none;
   color: navy;
   }
-.body a:hover   {
+#quotelink:hover {
   text-decoration: underline;
   color: navy;
   }
-.body a:active  {
+#quotelink:active {
   /* Applies to activated links */
   text-decoration: none;
   color: navy;
