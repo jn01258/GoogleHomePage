@@ -14,12 +14,11 @@ ul {
     display: block;
     text-align: center;
     margin: 0;
-    padding: 0;
     padding: 8px;
     text-decoration: none;
     font-family: "Arial", Arial, sans-serif;
     font-size: 13px;
-    color: #0e1111;
+    color: #757575;
 }
 
 .menu img {
@@ -139,10 +138,17 @@ p {
 
 /* Footer Menu */
 
-.left {
-    float: left;
-}
+.left {float: left;}
+.left:hover {text-decoration: underline;}
 
-.right {
-    float: right;
+.right {float: right;}
+.right:hover {text-decoration: underline;}
+
+.left, .right {
+    display: block;
+    padding: 0px 12px;
+    text-decoration: none;
+    font-family: "Arial", Arial, sans-serif;
+    font-size: 13px;
+    color: #757575;
 }
