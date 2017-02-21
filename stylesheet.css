@@ -2,8 +2,7 @@ div {margin: 0; padding: 0;}
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+
     overflow: hidden;
 
 }
@@ -15,13 +14,24 @@ li {
 li a {
     display: block;
     text-align: center;
-    padding: 4px;
+    margin: 0;
+    padding: 0;
+    padding: 8px;
     text-decoration: none;
     font-family: "Arial", Arial, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: #0e1111;
 }
 
+.topNav img {
+
+    display: block;
+    padding: 8px;
+    top: 9px;
+}
+
+#grid {width:23px; height:20px;}
+#signin {width:79px; height:31px;}
 
 .content {
   width:334px; height: 404px;
@@ -35,7 +45,7 @@ li a {
   top: 80px;
 }
 
-img {width:250px;}
+.logo img {width:250px;}
 
 #search {
   position: absolute;
