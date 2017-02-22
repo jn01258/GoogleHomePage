@@ -32,28 +32,17 @@ ul {
 #grid {width:23px; height:20px;}
 
 
-.content {
-  width:334px; height: 404px;
-  margin: 100px auto;
-  position: relative;
+.main {
+  text-align: center;
+  overflow: hidden;
+  margin: 10% 10%;
 }
 
-.logo {
-  position: absolute;
-  right: 48px;
-  top: 80px;
-}
-
-.logo img {width:250px;}
-
-#search {
-  position: absolute;
-  left: -118px;
-  top: 186px;
-}
+#googlelogo img {width:250px;}
 
 .searchbar {
   width: 550px;  height: 30px;  border: 1px solid #999999; padding: 5px;
+  margin: 3% 0%;
   box-shadow:0 0 2px grey;
 
 }
@@ -63,26 +52,20 @@ input:focus:: input-placeholder {
     opacity: 0;
 }
 
-#inputlogo {
-   width:20px; height:20px;
-  position:relative;
-  bottom: 30px;
-  left: 529px;
-}
+
 
 /* Submit buttons for "Google Search" and I'm Feeling Lucky" */
 button {
 
   width: 130px; height: 40px;
-  position: absolute;
-  top: 246px;
+  margin: 0% 0% 3% 0%;
   border-color: white;
   color: #757575;
 
 }
 
 .Submit {left: 15px;}
-.Lucky {right: 50px;}
+.Lucky {right: 15px;}
 
 
 button:hover {
@@ -96,14 +79,9 @@ button:hover {
 }
 /* Quote  */
 p {
-  width: 475px;
-  height: 20px;
   text-align: center;
-  top: 300px;
-  right: -83px;
   font-family: "Arial", Arial, sans-serif;
   font-size: 14px;
-  position: absolute;
   white-space: nowrap;
 }
 
